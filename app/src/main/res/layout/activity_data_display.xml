@@ -1,0 +1,130 @@
+<!-- XML Activity File for Displaying weigh-in data-->
+<!-- We need a button for adding weigh-in data
+    We need a button for editing current weight goal
+    We need 3 textViews for header content
+    We need a ListView to display database content
+    We need to link row_item to have our delete row button accessible -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/data_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/soft_green">
+
+
+    <!-- Add Data Button -->
+    <Button
+        android:id="@+id/buttonAddData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_data_button"
+        android:onClick="addWeighIn"
+        />
+
+    <!-- Change Goal Weight Button -->
+    <Button
+        android:id="@+id/buttonEditGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_goal_button"
+        android:onClick="changeGoalWeight"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Current Goal Weight: "
+            />
+        <TextView
+            android:id="@+id/goalWeightText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Goal Weight"
+            />
+
+    </LinearLayout>
+
+    <!-- Header Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/rounded_background"
+        >
+
+        <TextView
+            android:id="@+id/headerDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/header_date"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/headerWeighIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/header_weight"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/headerDifference"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/header_difference"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- GridView -->
+<!--        android:id="@+id/gridViewData"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:numColumns="1"-->
+<!--        android:horizontalSpacing="8dp"-->
+<!--        android:verticalSpacing="8dp"-->
+<!--        android:stretchMode="columnWidth"-->
+<!--        android:background="#F5F5F5" />-->
+
+    <!--  Connect to row_item to get data + remove row button on  -->
+
+    <ListView
+        android:id="@+id/listViewData"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:verticalSpacing="8dp"
+        android:background="@color/light_green"/>
+
+    <Button
+        android:id="@+id/buttonLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_button"
+        android:onClick="logOut"
+    />
+
+</LinearLayout>

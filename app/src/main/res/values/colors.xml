@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Green Palette -->
+    <color name="light_green">#E6F7E6</color>
+    <color name="soft_green">#D0F0C0</color> <!-- A soft green between light and medium -->
+    <color name="medium_green">#4CAF50</color>
+    <color name="dark_green">#087F23</color>
+    <color name="text_green">#388E3C</color>
+
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

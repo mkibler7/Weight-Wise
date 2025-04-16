@@ -1,0 +1,25 @@
+<resources>
+
+    <!--  Log-in Activity  -->
+    <string name="app_name">Weight Wise</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="delete">Delete Button</string>
+    <string name="username_hint">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Create Account</string>
+    <string name="header_date">Date</string>
+    <string name="header_weight">Weigh-In</string>
+    <string name="header_difference">Difference</string>
+    <string name="add_data_button">Add Weigh-In</string>
+    <string name="edit_goal_button">Change Goal</string>
+
+    <!--  Data Display Activity  -->
+    <string name="logout_button">Log Out</string>
+
+    <!--  SMS Activity  -->
+    <string name="sms_hint">Phone Number</string>
+    <string name="sendRequest">Send SMS Notifications</string>
+    <string name="sms">SMS Permission Request</string>
+</resources>

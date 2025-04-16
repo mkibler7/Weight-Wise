@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Text for Date -->
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/header_date"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <!-- Text for Weigh-In -->
+    <TextView
+        android:id="@+id/textWeighIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/header_weight"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginStart="20dp"/>
+
+    <!-- Text for Difference -->
+    <TextView
+        android:id="@+id/textDifference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/header_difference"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="5dp"/>
+
+    <!-- Delete Button -->
+    <ImageButton
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        android:contentDescription="@string/delete"
+        android:src="@drawable/delete_vector"
+        android:padding="5dp" />
+</LinearLayout>

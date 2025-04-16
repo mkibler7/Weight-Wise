@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Project2MichaelKibler" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- App color scheme -->
+        <item name="colorPrimary">#4CAF50</item> <!-- Green -->
+        <item name="colorPrimaryDark">#388E3C</item> <!-- Darker green -->
+        <item name="colorAccent">#4CAF50</item>
+
+        <!-- Link custom button style -->
+        <!-- Customize your light theme here. -->
+        <item name="buttonStyle">@style/AppButtonStyle</item>
+    </style>
+
+
+    <!--  Button Styles  -->
+    <style name="AppButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_background</item> <!-- Green background -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White text -->
+        <item name="android:padding">8dp</item> <!-- Padding -->
+        <item name="android:textStyle">bold</item> <!-- Bold text -->
+    </style>
+
+    <style name="Theme.Project2MichaelKibler" parent="Base.Theme.Project2MichaelKibler" />
+</resources>

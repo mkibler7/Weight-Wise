@@ -1,0 +1,83 @@
+<!-- XML Activity File for Logging-In/Creating a user account-->
+<!-- We need a textField for the app's title
+    We need a textField for the user to enter username
+    We need a textField for the user to enter password
+    We need a button to trigger a sign in request
+    We need a button to trigger an account activation -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:padding="16dp"
+    android:background="@color/soft_green"
+    >
+
+    <!-- Application Name -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        android:textAlignment="center"/>
+
+    <!-- Username TextField -->
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_hint"
+        android:layout_below="@id/textTitle"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Password TextField -->
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:layout_below="@id/editUsername"
+        android:layout_marginTop="16dp"/>
+
+    <!--  Button Bar  -->
+    <LinearLayout
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editPassword"
+        android:orientation="vertical">
+
+        <!--  Login Button  -->
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/login_button"
+            android:onClick="login"
+            />
+
+        <!-- Create Account Button -->
+        <Button
+            android:id="@+id/buttonCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/register_button"
+            android:onClick="register"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
