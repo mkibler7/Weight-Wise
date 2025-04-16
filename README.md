@@ -44,4 +44,4 @@ The app allows users to log their weight, set personal goals, and visually track
 ## Contact Info
 
 Created by **Michael Kibler**  
-[LinkedIn](https://www.linkedin.com/in/michael-kibler-11369519b/) | [Email](mpkibler7@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/michael-kibler-11369519b/) | [Email](mailto:mpkibler7@gmail.com)
