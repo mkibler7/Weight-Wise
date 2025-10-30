@@ -1,6 +1,6 @@
-# "Weight Wise" Weight Tracker Android App
+# Weight Wise
 
-A mobile application built in Android Studio as part of my Mobile Architecture and Programming course at Southern New Hampshire University.
+An android weight tracker mobile application built in Android Studio as part of my Mobile Architecture and Programming course at Southern New Hampshire University.
 The app allows users to log their weight, set personal goals, and visually track progress over time. It's designed with a clean, user-friendly interface and persistent local storage using SQLite.
 
 ## Features
@@ -13,12 +13,11 @@ The app allows users to log their weight, set personal goals, and visually track
 - ✅ Responsive layout with XML-based UI
 - ✅ Built using Model-View-Controller (MVC) principles
 
-## Tech Stack
+![image](https://github.com/user-attachments/assets/b0b70284-f9c0-4a2e-9032-1221b2c3edfb)
+![image](https://github.com/user-attachments/assets/9cc25999-cdc1-49fe-a6f8-d59a76b92a89)
+![image](https://github.com/user-attachments/assets/2a6c0610-c48d-463b-9530-0122846958ba)
+![image](https://github.com/user-attachments/assets/8b0f20ef-10c6-481c-9613-5c76972894fb)
 
-- **Java** – Core development language
-- **Android Studio** – Development environment
-- **SQLite** – Local data storage
-- **XML** – UI layout and styling
 
 ## What I Learned
 
@@ -28,12 +27,13 @@ The app allows users to log their weight, set personal goals, and visually track
 - Working with SQLite databases for persistent storage
 - Writing modular, maintainable Java code using MVC architecture
 
-## Screenshots
+## Tech Stack
 
-![image](https://github.com/user-attachments/assets/b0b70284-f9c0-4a2e-9032-1221b2c3edfb)
-![image](https://github.com/user-attachments/assets/9cc25999-cdc1-49fe-a6f8-d59a76b92a89)
-![image](https://github.com/user-attachments/assets/2a6c0610-c48d-463b-9530-0122846958ba)
-![image](https://github.com/user-attachments/assets/8b0f20ef-10c6-481c-9613-5c76972894fb)
+- **Java** – Core development language
+- **Android Studio** – Development environment
+- **SQLite** – Local data storage
+- **XML** – UI layout and styling
+
 
 ## How to Run
 
